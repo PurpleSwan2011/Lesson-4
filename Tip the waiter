@@ -1,0 +1,5 @@
+def total__calc(bill__amount,tip__perc):
+    total=bill__amount*(1+0.01*tip__perc)
+    total=round(total,2)
+    print(f"pls pay${total}")
+total__calc(150,20)
